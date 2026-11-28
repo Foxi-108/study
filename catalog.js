@@ -1,8 +1,8 @@
 const catalog = [
-    {position : 1, name : "Коврик", specs : "180 см · 1 комплект", description : "Для остановки и отдыха на природе"},
-    {position : 2, name : "Фонарь", specs : "Три режима · 1 комплект", description : "Свет для вечерней прогулки"},
-    {position : 2, name : "Космические шахматы", specs : "1 комплект", description : "А они тут как оказались?"},
-    {position : 3, name : "Рюкзак", specs : "30 литров · 1 комплект", description : "Для вещей и короткого маршрута"}
+    {position : 1, name : "Коврик", specs : "180 см · 1 комплект", description : "Для остановки и отдыха на природе", image : "images/kovrik.png"},
+    {position : 2, name : "Фонарь", specs : "Три режима · 1 комплект", description : "Свет для вечерней прогулки", image : "images/lighter.png"},
+    {position : 2, name : "Космические шахматы", specs : "1 комплект", description : "А они тут как оказались?", image : "images/cosmic.jpg"},
+    {position : 3, name : "Рюкзак", specs : "30 литров · 1 комплект", description : "Для вещей и короткого маршрута", image : "images/backpack.png"}
 ];
 
 function getResult(quantityText, unitAmount, extraAmount) {
